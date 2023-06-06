@@ -24,7 +24,7 @@ spec:
           ports:
             - name: vprormq01-port
               containerPort: 15672
-          end:
+          env:
             - name: RABBITMQ_DEFAULT_PASS
               valueFrom:
                 secretKeyRef:
