@@ -18,7 +18,7 @@ spec:
         zone: us-east-1a
       containers:
         - name: vprodb
-          image: vprofile/vprofiledb:v1
+          image: vprofile/vprofiledb
           resources:
             limits:
               cpu: "1"
